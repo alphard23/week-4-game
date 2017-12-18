@@ -20,23 +20,26 @@
                 <h1>Win the game by matching your total score to the random number, you lose the game if your score goes above the random number.
                 </h1>
                 <div class="jumbotron">
-                    <img src="assets/images/gryffindor.png" class="img-rounded" alt="gryffindor house logo">
-                    <img src="assets/images/hufflepuff.png" class="img-rounded" alt="hufflepluff house logo">
-                    <img src="assets/images/slytherin.png" class="img-rounded" alt="slytherin house logo">
-                    <img src="assets/images/ravenclaw.png" class="img-rounded" alt="ravenclaw house logo">
+                    <img id="1" src="assets/images/gryffindor.png" class="img-rounded" alt="gryffindor house logo">
+                    <img id="2" src="assets/images/hufflepuff.png" class="img-rounded" alt="hufflepluff house logo">
+                    <img id="3" src="assets/images/slytherin.png" class="img-rounded" alt="slytherin house logo">
+                    <img id="4" src="assets/images/ravenclaw.png" class="img-rounded" alt="ravenclaw house logo">
                 </div>
             </div>
         </div>
         <div class="row">
             <div class="col-md-3 well">
-                <h3 id="randomNumber">Random Number</h3>
+                <h3>Random Number: <span id="randomNumber"></span></h3>
             </div>
             <div class="col-md-5 well">
-                <h3>User points</h3>
+                <h3>User points:
+                    <span id="userPoints"></span>
+                </h3>
             </div>
             <div class="col-md-4 well">
-                <h3>Wins:</h3>
-                <h3>Losses:</h3>
+                <h3>Wins:<span id="youwin"></span></h3>
+                <h3>Losses:<span id="youlost"></span></h3>
+                <div id="wonlost"></div>
             </div>
         </div>
     </div>
